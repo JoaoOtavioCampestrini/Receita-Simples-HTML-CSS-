@@ -1,0 +1,20 @@
+#fotoprimeira{
+    width: 200px;
+    height: 200px;
+    
+   }
+  
+   #tudo{
+    place-items: center;
+    display: grid;
+    background-color: gainsboro;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    padding-left: 10px;
+   }
+  
+   #caixafora{
+    border: 10px solid #ffffff;
+    border-radius: 0px;
+    background-color: #ffffff;  
+   }
