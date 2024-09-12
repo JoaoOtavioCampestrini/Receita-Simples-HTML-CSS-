@@ -1,71 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receitas com CSS</title>
-    <link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas com CSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
 </head>
-<body id="tudo">
-    <div id="caixafora">
-   
-    <h1>Receita de hoje: Risoto de Cogumelos</h1>
-    <img src="./assets/Risoto-de-Cogumelos.webp" alt="" id="fotoprimeira">
- 
- 
-    <h2>Ingredientes:</h2>
-    <ul>
-        <li>2 xícaras de arroz arbóreo</li>
-        <li>300g de cogumelos (shiitake, shimeji ou champignon), limpos e fatiados</li>
-        <li>1 cebola média, picada</li>
-        <li>2 dentes de alho, picados</li>
-        <li>1 taça de vinho branco seco</li>
-        <li>1 litro de caldo de legumes ou de galinha, aquecido</li>
-        <li>1 colher de sopa de manteiga</li>
-        <li>50g de queijo parmesão ralado</li>
-        <li>2 colheres de sopa de azeite de oliva</li>
-        <li>Sal e pimenta-do-reino a gosto</li>
-        <li>Salsinha fresca picada (opcional)</li>
-    </ul>
- 
-    <h2>Modo de Preparo:</h2>
-    <ol>
-        <li><b>Refogar os cogumelos:</b>Em uma panela grande, aqueça uma colher de sopa de azeite e refogue os cogumelos até que fiquem dourados e macios. <br> Tempere com sal e pimenta. Retire e reserve.</li>
-        <li><b>Refogar a cebola e o alho:</b>Na mesma panela, adicione o restante do azeite e refogue a cebola até ficar transparente. <br> Acrescente o alho e refogue por mais 1 minuto.</li>
-        <li><b>Adicionar o arroz:</b>Adicione o arroz arbóreo à panela e refogue por 2 a 3 minutos, <br> mexendo sempre, até que os grãos estejam levemente dourados e envolvidos pelo azeite.</li>
-        <li><b>Deglacear com o vinho:</b>Despeje o vinho branco e mexa até que o álcool evapore e o líquido seja quase totalmente absorvido.</li>
-        <li><b>Cozinhar o arroz:</b>Comece a adicionar o caldo de legumes, uma concha por vez, mexendo constantemente. À medida que o caldo for sendo absorvido, <br> adicione mais, repetindo o processo até o arroz ficar al dente (cerca de 18 a 20 minutos). Não deixe de mexer para garantir uma textura cremosa.</li>
-        <li><b>Finalizar o risoto:</b>Quando o arroz estiver quase pronto, adicione os cogumelos refogados, misture bem e ajuste o sal e a pimenta. <br> Retire a panela do fogo, acrescente a manteiga e o queijo parmesão, e mexa até derreter e ficar cremoso.</li>
-        <li><b>Servir:</b>Decore com salsinha picada e sirva imediatamente.</li>
-    </ol>
- 
- 
-</body>
-</html>
- 
- 
-<!-- ///////////////////////////////////MUDAR FONTE///////////////////////////////////////// -->
- 
-<link rel="stylesheet" href="./stylex.css">
- 
- 
- 
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<style>
-    body {
-        font-family: 'Roboto', sans-serif;
-    }
-</style>
- 
-<!-- ///////////////////////////// MUDAR COR DE FUNDO /////////////////////////////////////////////// -->
- 
-<title>Cor de Fundo</title>
-<style>
-    /* Definindo a cor de fundo do site */
-    body {
-        background-color: gainsboro; /* Cor de fundo */
-    }
-</style>
-</head>
-</div>
+
 <body>
+  <nav id="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="receitas.html">Receitas</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+  <div id="titulo">
+    <h1 id="receita-risoto">Receita de hoje: Risoto de Cogumelo</h1>
+    <img src="./assets/risoto-de-cogumelos.webp" alt="Risoto de Cogumelos servido em um prato decorado.">
+  </div>
+
+  <div id="conteudo">
+    <h2>Ingredientes</h2>
+    <ul>
+      <li>250g Arroz arbóreo</li>
+      <li>100g cogumelo shiitake</li>
+      <li>200ml vinho branco seco</li>
+      <li>75g de manteiga sem sal</li>
+      <li>2 tabletes de caldo de legumes</li>
+      <li>100g de queijo parmesão</li>
+      <li>2 cebolas médias picadas em cubinhos</li>
+      <li>4 dentes de alho (opcional)</li>
+      <li>Sal e pimenta a gosto</li>
+      <li>Azeite de oliva (para fritar)</li>
+      <li>Cheiro verde a gosto</li>
+    </ul>
+
+    <h2>Modo de preparo</h2>
+    <ol>
+      <li>
+        Em um frigideira pré aquecida, coloque um fio de azeite de oliva e
+        refolgue os cogumelos até que estejam dourados.
+      </li>
+      <li>Dissolva os tabletes de caldo de legumes em uma panela com 1,5L de água quente</li>
+      <li>Aqueça uma panela e coloque um fio de azeite de oliva</li>
+      <li>Coloque na panela a cebola picada e o alho e frite até dourar.</li>
+      <li>Em fogo baixo, junte o arroz na panela com a cebola e o alho e frite levemente o arroz.</li>
+      <li>Junte o vinho na panela com arroz e vá mexendo até evaporar</li>
+      <li>Junte 2 conchas de caldo de legumes ao arroz e mexa até evaporar.</li>
+      <li>Repita o processo anterior até finalizar o caldo</li>
+      <li>Junte os cogumelos refolgados ao arroz.</li>
+      <li>Desligue o fogo e junte a manteiga e vá mexendo até o arroz ficar brilhante.</li>
+      <li>Sirva em um prato com queijo e cheiro verde a gosto.</li>
+    </ol>
+  </div>
+</body>
+
+</html>
